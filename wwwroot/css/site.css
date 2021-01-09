@@ -1,0 +1,45 @@
+body {
+  display: flex;
+  height: 100vh;
+  background: linear-gradient(
+    135deg,
+    rgb(255, 213, 0),
+    rgb(251, 150, 120)
+  );
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  max-width: 150px;
+}
+
+.card-header {
+  text-align: center;
+}
+
+.body-container {
+  min-width: 500px;
+}
+
+.welcome-page li {
+  list-style: none;
+  padding: 4px; }
+
+.logged-out-page iframe {
+  display: none;
+  width: 0;
+  height: 0; }
+
+.grants-page .card {
+  margin-top: 20px;
+  border-bottom: 1px solid lightgray; }
+  .grants-page .card .card-title {
+    font-size: 120%;
+    font-weight: bold; }
+    .grants-page .card .card-title img {
+      width: 100px;
+      height: 100px; }
+  .grants-page .card label {
+    font-weight: bold; }
